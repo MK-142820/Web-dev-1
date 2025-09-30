@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manoj Kumar - Lab Assignments</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+      text-align: center;
+    }
+    table {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    form {
+      margin-bottom: 30px;
+    }
+    header, nav, main, article, section, footer {
+      border: 1px solid gray;
+      margin: 8px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===================== -->
+  <!-- Task 1: Complex Table -->
+  <!-- ===================== -->
+  <h2>1. Complex Table (Student Grades in 10th )</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Math</th>
+      <th>Science</th>
+      <th>English</th>
+      <th>Hindi</th>
+    </tr>
+    <tr>
+      <td>Manoj Kumar</td>
+      <td>83</td>
+      <td>85</td>
+      <td>91</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>Divya Rao</td>
+      <td>80</td>
+      <td>90</td>
+      <td>78</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <td>Namrata</td>
+      <td>90</td>
+      <td>88</td>
+      <td>92</td>
+      <td>86</td>
+    </tr>
+    <tr>
+     <td>Nikhil Saneja</td>
+     <td>90</td>
+     <td>88</td>
+     <td>86</td>
+     <td>92</td>
+    </tr>
+  </table>
+
+  <!-- ============================== -->
+  <!-- Task 2: Extended Registration Form -->
+  <!-- ============================== -->
+  <h2>2. Registration Form (Extended)</h2>
+  <form>
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" value="Manoj Kumar" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="manoj@example.com" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" checked>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <label for="bio">Bio:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="40">
+BTech CSE (AI & ML) student | Aspiring Stand-up Artist | Cricket Lover | Creative Thinker
+    </textarea><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <!-- ========================== -->
+  <!-- Task 3: Semantic Blog Layout -->
+  <!-- ========================== -->
+  <h2>3. Semantic Blog Layout</h2>
+  <header>
+    <h1>Manoj’s Blog</h1>
+    <p>Sharing my journey through tech, creativity, and life.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Tech</a></li>
+      <li><a href="#">Comedy</a></li>
+      <li><a href="#">Life</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <article>
+        <h2>My First Semester Journey</h2>
+        <p>Starting BTech CSE (AI & ML) at KR Mangalam University has been exciting. 
+        From coding basics to meeting new people, every day feels like a new challenge.</p>
+      </article>
+      <article>
+        <h2>Stand-up Comedy Dreams</h2>
+        <p>Comedy is not just entertainment for me — it’s a way to connect with people. 
+        I plan to pursue stand-up after 25, once I build my career in tech.</p>
+      </article>
+      <article>
+        <h2>Balancing Tech & Creativity</h2>
+        <p>Between coding, cricket, and creative writing, I’ve realized balance is key. 
+        Life is like an algorithm — you debug it until it works smoothly!</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Manoj Kumar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
